@@ -40,7 +40,7 @@ const skills = {
 
   // Containers
   Docker: '8.5',
-  Kubernetes: '1'
+  Kubernetes: '1',
 
   // Niche
   DHIS: 1,
