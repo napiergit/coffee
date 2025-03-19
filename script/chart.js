@@ -5,6 +5,7 @@ const skills = {
   Golang: 4.5,
   NodeJS: 3,
   Python: 1,
+  Bash: 8.5,
 
   // Frontend
   Angular: 3.5,
@@ -28,6 +29,7 @@ const skills = {
   'Github Actions': 1,
   'Azure DevOps': 1,
   CircleCI: 2,
+  Ansible: 1,
 
   // O11y
   DataDog: 1,
@@ -39,6 +41,12 @@ const skills = {
   // Containers
   Docker: '8.5',
   Kubernetes: '1'
+
+  // Niche
+  DHIS: 1,
+  'Azure AD B2C': 1,
+
+
 }
 
 function sortObjectByValues(obj) {
