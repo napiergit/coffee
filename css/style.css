@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-  font-weight:0.8;
+  font-weight:1;
   margin-bottom:0px;
 }
 
@@ -27,17 +27,61 @@ h3 {
 }
 
 h4 {
-  font-weight:580;
+  font-weight:1;
 }
 
 .indent {
   margin-left: 3px;
   text-align:justify;
+  font-size: 14px;
 }
 
 
 .chart-container {
   height: 400px; /* Adjust as needed */
+}
+
+.experiences-container {
+  display: flex;
+  width:100%;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top:36px;
+}
+
+.experience-container {
+  width: 180px;
+  flex-direction: column;
+  /* border: 1px solid black; */
+  margin-right:10px;
+  margin-bottom:20px;
+}
+
+.experience-image {
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  height: 40px;
+}
+
+.experience-image img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.experience-description {
+  text-align: center;
+  font-size: 14px;
+}
+
+.experience-title {
+  font-weight: 550;
+}
+
+.experience-dates {
+  font-style: italic;
 }
 
 
@@ -57,7 +101,9 @@ h4 {
     /* border: 2px solid black; */
     width:96%;
     /* background:#fafae5; */
-    background:#dae1fd;
+    /* background:#dae1fd; */
+    /* background:#e2dcfc; */
+    background:#f7f5ff;
     max-width: 700px;
     /* padding: 0 3%; */
     box-shadow: 7px 12px #888888;

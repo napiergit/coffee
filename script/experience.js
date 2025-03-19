@@ -1,0 +1,86 @@
+const education = [
+  {
+    name: 'University of Stellenbosch',
+    link: 'https://www.sun.ac.za',
+    image: 'https://blogs.sun.ac.za/ccmd/files/2023/07/SU-Logo.png',
+    title: 'Bachelor of Engineering',
+    dates: '2010 - 2014',
+    accomplishments: 'Electrical and Electronic',
+  },
+]
+
+const experiences = [
+  {
+    name: 'Jembi',
+    link: 'https://www.jembi.org',
+    image: 'img/jhs.svg',
+    title: 'Junior Software Developer',
+    dates: '12/2015 - 10/2017',
+    accomplishments: 'Learned a lot',
+  },
+  {
+    name: 'Luno',
+    link: 'https://www.luno.com',
+    image: 'https://altcoinsbox.com/wp-content/uploads/2023/04/full-luno-logo.png',
+    title: 'Full Stack Technical Lead',
+    dates: '10/2017 - 02/2021',
+    accomplishments: 'Built cool stuff as a team',
+  },
+  {
+    name: 'Paystack',
+    link: 'https://paystack.com',
+    image: 'img/paystack.svg',
+    title: 'Senior Software Engineer',
+    dates: '02/2021 - 01/2022',
+    accomplishments: 'Put out fires',
+  },
+  {
+    name: 'Merge',
+    link: 'https://www.merge.money',
+    image: 'https://cdn.prod.website-files.com/64ae94d714672f239e520a55/64ae9bf3d769aedd08270d58_Merge-logo-white.svg',
+    title: 'Head of Engineering',
+    dates: '01/2022 - 03/2023',
+    accomplishments: 'Built everything from scratch',
+  },
+  {
+    name: 'IQVIA',
+    link: 'https://www.iqvia.com',
+    image: 'https://iqvia.com/-/media/iqvia/iqvia_lg_hrz_rgb.svg',
+    title: 'Lead Cloud Engineer',
+    dates: '07/2023 - 12/2025',
+    accomplishments: 'Fixed bugs',
+  },
+]
+
+const genHtml = (items) => {
+  let html = '';
+
+  items.forEach((item) => {
+    html += `
+      <div class="experience-container"
+           style="cursor: pointer;"
+           onclick="openInNewTab('${item.link}')">
+        <div class="experience-image">
+          <img src="${item.image}"/>
+        </div>
+        <div class="experience-description">
+          <div class="experience-title">${item.title}</div>
+          <div class="experience-accomplishments">${item.accomplishments}</div>
+          <div class="experience-dates">${item.dates}</div>
+        </div>
+      </div>
+      `;
+  });
+  return html
+}
+
+const eduHtml = genHtml(education)
+const expHtml = genHtml(experiences)
+
+document.addEventListener("DOMContentLoaded", function() {
+  const exp = document.getElementById('experiences-container');
+  const edu = document.getElementById('education-container');
+  exp.innerHTML = expHtml;
+  edu.innerHTML = eduHtml;
+})
+

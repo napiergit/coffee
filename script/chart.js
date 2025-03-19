@@ -21,32 +21,37 @@ const skills = {
 
   // Infra
   AWS: 2,
-  Azure: 1,
   'API Gateway': 2,
-  WAF: 1,
+  Lambda: 1,
+  // Fargate: 1,
+  // EC2: 2,
+  // Cloudflare: 1,
+  // 'Digital Ocean': 2,
+  // Azure: 1,
+  // WAF: 1,
 
   // Devops
   'Github Actions': 1,
-  'Azure DevOps': 1,
   CircleCI: 2,
-  Ansible: 1,
+  Jenkins: 3,
+  // Ansible: 1,
+  // 'Azure DevOps': 1,
 
   // O11y
   DataDog: 1,
   ELK: 2,
   Prometheus: 1,
   Grafana: 1,
-  'RDS Insights': 1,
+  // 'RDS Insights': 1,
 
   // Containers
   Docker: '8.5',
-  Kubernetes: '1',
+  Kubernetes: '2',
 
   // Niche
-  DHIS: 1,
-  'Azure AD B2C': 1,
-
-
+  // DHIS: 1,
+  // 'Azure AD B2C': 1,
+  OAuth: 1,
 }
 
 function sortObjectByValues(obj) {
@@ -61,7 +66,6 @@ function sortObjectByValues(obj) {
 const bleh = sortObjectByValues(skills)
 const labels = bleh.k
 const data = bleh.v
-console.log(data, labels)
 
 new Chart(ctx, {
   type: 'bar',
