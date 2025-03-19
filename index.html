@@ -1,9 +1,38 @@
+<!-- TODO -->
+<!-- tech stack section -->
+
+<!-- work experience section -->
+
+<!-- mobile friendly -->
+<!-- picture of myself -->
+
+<!-- pdf downloadable -->
+
+<!-- Over 8 years of experience -->
+<!-- Should I say something about culture fit and measurable impact being important to me? -->
+
+<!-- Final formatting -->
+<!-- Overwrite commits -->
+
+<!-- Ensure not annoying to pull images -->
+<!-- Check how secure and fast my site is on some ratings things -->
+
+<!-- Remove unused code -->
+
+<!-- Launch -->
+
+
 <html>
   <head>
     <title>Resume</title>
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+      function openInNewTab(url) {
+          window.open(url, '_blank').focus();
+      }
+    </script>
   </head>
 
   <body>
@@ -14,7 +43,7 @@
 
         <h3>Education</h3>
         <div class="flex-container">
-          <div class="logos">
+          <div class="logos indent">
             <div>
               <img height="37" src="https://blogs.sun.ac.za/ccmd/files/2023/07/SU-Logo.png">
               <div class="logo-summary">Bachelor of Engineering (Electrical and Electronic)</div>
@@ -24,11 +53,20 @@
 
         <h3>Employment History</h3>
         <div class="flex-container">
-          <div class="logos">
-            <div>
-              <img src="img/jhs.svg"/>
-              <div class="logo-summary">Junior Software Developer</div>
-            </div>
+          <div class="logos indent">
+          <!--   <div class="experience-container"> -->
+          <!--     <div class="experience-image"> -->
+          <!--       <img src="img/jhs.svg"/> -->
+          <!--       <div class="experience-title">Junior Software Developer</div> -->
+          <!--       <div class="experience-dates">Experience dates</div> -->
+          <!--       <div class="experience-achievements">Achievement1</div> -->
+          <!--     </div> -->
+          <!--   </div> -->
+
+          <div>
+            <img src="img/jhs.svg"/>
+            <div class="logo-summary">Junior Software Developer</div>
+          </div>
 
             <div>
               <img src="https://altcoinsbox.com/wp-content/uploads/2023/04/full-luno-logo.png">
@@ -54,23 +92,32 @@
         </div>
 
         <h3>Tech Stack</h3>
-        <canvas id="myChart"></canvas>
+        <div class="chart-container">
+          <canvas id="myChart"></canvas>
+        </div>
 
-        <h3>Summary</h3>
+        <h3>Professional Summary</h3>
         <h4>Core Cloud Architecture and Development Expertise</h4>
-        <p>Architects and implements secure, scalable cloud solutions and resilient cloud-native microservices across AWS and Azure. Proficient in infrastructure-as-code (Terraform), container orchestration (Docker, Kubernetes, Fargate), function-based serverless technologies (Lambda), API Gateway, WAF, authentication/authorization mechanisms, and event-driven architectures. Designs and builds robust and efficient cloud architectures, implementing security best practices at every layer of the cloud stack.</p>
+        <p class="indent">Architects and implements secure, scalable cloud solutions and resilient cloud-native microservices across AWS and Azure. Proficient in infrastructure-as-code (Terraform), container orchestration (Docker, Kubernetes, Fargate), function-based serverless technologies (Lambda), API Gateway, WAF, authentication/authorization mechanisms, and event-driven architectures. Designs and builds robust and efficient cloud architectures, implementing security best practices at every layer of the cloud stack.</p>
 
         <h4>Operational Excellence, Security, and Compliance</h4>
-        <p>Proficient in database technologies (relational, NoSQL) within cloud environments. Designs and implements secure and performant cloud networking solutions. Develops and implements disaster recovery and business continuity plans for cloud environments. Optimizes cloud resources for cost efficiency while maintaining performance and security. Ensures cloud environments comply with industry regulations and security standards.</p>
+        <p class="indent">Proficient in database technologies (relational, NoSQL) within cloud environments. Designs and implements secure and performant cloud networking solutions. Develops and implements disaster recovery and business continuity plans for cloud environments. Optimizes cloud resources for cost efficiency while maintaining performance and security. Ensures cloud environments comply with industry regulations and security standards.</p>
 
         <h4>DevOps, Observability, and Data-Driven Development</h4>
-        <p>Maintains and optimizes robust DevOps practices, automated CI/CD pipelines, and agile workflows to accelerate operational efficiency. Builds and manages observability platforms (Prometheus, Grafana, Datadog, ELK) to proactively monitor systems, ensuring high availability and rapid incident response. Drives data-driven business decisions by utilizing metrics and analytics to optimize performance and enhance data reliability.</p>
+        <p class="indent">Maintains and optimizes robust DevOps practices, automated CI/CD pipelines, and agile workflows to accelerate operational efficiency. Builds and manages observability platforms (Prometheus, Grafana, Datadog, ELK) to proactively monitor systems, ensuring high availability and rapid incident response. Drives data-driven business decisions by utilizing metrics and analytics to optimize performance and enhance data reliability.</p>
 
         <h4>Developer Experience and Leadership</h4>
-        <p>Passionate about fostering a positive developer experience and building high-performing engineering teams. Leads by example, mentoring and empowering team members to adopt best practices and streamline workflows. Creates collaborative environments that encourage innovation and continuous improvement, ensuring alignment with business objectives and delivering high-quality solutions. A self-motivated and emotionally grounded leader, demonstrates a proactive approach to problem-solving and a dedication to excellence.</p>
+        <p class="indent">Passionate about fostering a positive developer experience and building high-performing engineering teams. Leads by example, mentoring and empowering team members to adopt best practices and streamline workflows. Creates collaborative environments that encourage innovation and continuous improvement, ensuring alignment with business objectives and delivering high-quality solutions. A self-motivated and emotionally grounded leader, demonstrates a proactive approach to problem-solving and a dedication to excellence.</p>
 
         <h3>Contact Information</h3>
-        <h3>References</h3>
+        <div class="indent">
+          <div
+            style="cursor: pointer;"
+            onclick="openInNewTab('https://www.linkedin.com/in/andrew-napier-b9b81317b/')">
+            LinkedIn</div>
+          <div>Email: napierandr@gmail.com</div>
+          <div>References available on request</div>
+        </div>
       </div>
     </div>
   <body>

@@ -26,12 +26,66 @@ h3 {
   font-style: italic;
 }
 
+h4 {
+  font-weight:580;
+}
+
+.indent {
+  margin-left: 3px;
+  text-align:justify;
+}
 
 
+.chart-container {
+  height: 400px; /* Adjust as needed */
+}
 
-/* CSS that should be displayed if width is equal to or less than 991px and larger 
-*   than 768px goes here */
+
 @media only screen and (max-width: 5000px) and (min-width: 769px){
+  body {
+    width:100%;
+    margin:0;
+    display:flex;
+    justify-content:center;
+    /* background:#dae1fd; */
+    align-items:center;
+  }
+
+  .resume-frame {
+    margin:80px 0px;
+    border: 1px solid #92949d;
+    /* border: 2px solid black; */
+    width:96%;
+    /* background:#fafae5; */
+    background:#dae1fd;
+    max-width: 700px;
+    /* padding: 0 3%; */
+    box-shadow: 7px 12px #888888;
+  }
+
+  .margin {
+    margin: 60px 60px;
+  }
+
+  .logos {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logos img {
+    width: 100px;
+  }
+
+  .logo-summary {
+    margin-top:5px;
+    font-size:8px;
+  }
+}
+
+
+@media only screen and (max-width: 768px) and (min-width: 0px){
   body {
     width:100%;
     margin:0;
