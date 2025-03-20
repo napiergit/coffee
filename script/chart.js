@@ -8,21 +8,24 @@ const skills = {
   Bash: 8.5,
 
   // Frontend
-  Angular: 3.5,
-  React: 0.5,
+  Javascript: 5,
+  // Angular: 3.5,
+  // React: 0.5,
 
   // IaC
   Terraform: 2,
 
   // DBs
-  MySQL: 4.5,
-  Postgres: 3,
-  MongoDB: 3,
+  // MySQL: 4.5,
+  // Postgres: 3,
+  RDBMS: 7.5,
+  // MongoDB: 3,
+  NoSQL: 3,
 
   // Infra
   AWS: 2,
-  'API Gateway': 2,
-  Lambda: 1,
+  // 'API Gateway': 2,
+  // Lambda: 1,
   // Fargate: 1,
   // EC2: 2,
   // Cloudflare: 1,
@@ -33,11 +36,13 @@ const skills = {
   // Devops
   'Github Actions': 1,
   CircleCI: 2,
-  Jenkins: 3,
+  // Jenkins: 3,
+  // 'CI/CD': 3,
   // Ansible: 1,
   // 'Azure DevOps': 1,
 
   // O11y
+  // Observability: 4,
   DataDog: 1,
   ELK: 2,
   Prometheus: 1,
@@ -51,7 +56,7 @@ const skills = {
   // Niche
   // DHIS: 1,
   // 'Azure AD B2C': 1,
-  OAuth: 1,
+  // OAuth: 1,
 }
 
 function sortObjectByValues(obj) {
