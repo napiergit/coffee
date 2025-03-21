@@ -16,7 +16,7 @@ const experiences = [
     image: 'img/jhs.svg',
     title: 'Junior Software Developer',
     dates: '12/2015 - 10/2017',
-    accomplishments: '',
+    accomplishments: 'Full stack',
   },
   {
     name: 'Luno',
@@ -24,7 +24,7 @@ const experiences = [
     image: 'https://altcoinsbox.com/wp-content/uploads/2023/04/full-luno-logo.png',
     title: 'Full Stack Technical Lead',
     dates: '10/2017 - 02/2021',
-    accomplishments: 'Built full stack features',
+    accomplishments: 'Cross-functional teamwork',
   },
   {
     name: 'Paystack',
@@ -40,7 +40,7 @@ const experiences = [
     image: 'https://cdn.prod.website-files.com/64ae94d714672f239e520a55/64ae9bf3d769aedd08270d58_Merge-logo-white.svg',
     title: 'Head of Engineering',
     dates: '01/2022 - 03/2023',
-    accomplishments: 'Built everything from scratch',
+    accomplishments: 'Zero to One',
   },
   {
     name: 'IQVIA',
