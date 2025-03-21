@@ -16,6 +16,7 @@ const experiences = [
     image: 'img/jhs.svg',
     title: 'Junior Software Developer',
     dates: '12/2015 - 10/2017',
+    // dates: '[2016 - 2018)',
     accomplishments: 'Full stack',
   },
   {
@@ -24,6 +25,7 @@ const experiences = [
     image: 'https://altcoinsbox.com/wp-content/uploads/2023/04/full-luno-logo.png',
     title: 'Full Stack Technical Lead',
     dates: '10/2017 - 02/2021',
+    // dates: '[2018 - 2021)',
     accomplishments: 'Cross-functional teamwork',
   },
   {
@@ -32,6 +34,7 @@ const experiences = [
     image: 'img/paystack.svg',
     title: 'Senior Software Engineer',
     dates: '02/2021 - 01/2022',
+    // dates: '[2021 - 2022)',
     accomplishments: 'Migrations and Integrations',
   },
   {
@@ -40,6 +43,7 @@ const experiences = [
     image: 'https://cdn.prod.website-files.com/64ae94d714672f239e520a55/64ae9bf3d769aedd08270d58_Merge-logo-white.svg',
     title: 'Head of Engineering',
     dates: '01/2022 - 03/2023',
+    // dates: '[2022 - 2023)',
     accomplishments: 'Zero to One',
   },
   {
@@ -48,6 +52,7 @@ const experiences = [
     image: 'https://iqvia.com/-/media/iqvia/iqvia_lg_hrz_rgb.svg',
     title: 'Lead Cloud Engineer',
     dates: '07/2023 - 12/2025',
+    // dates: '[2024 - 2025)',
     accomplishments: 'Maintenance',
   },
 ]

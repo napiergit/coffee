@@ -78,7 +78,7 @@ new Chart(ctx, {
     labels: labels,
     datasets: [
       {
-        label: 'Years of Hands On Professional Experience',
+        label: 'Years of Hands-on Professional Experience',
         data: data,
         borderWidth: 1
       }
