@@ -1,0 +1,67 @@
+
+
+
+
+
+
+
+        <!-- <h3></h3> -->
+        <!-- <h4></h4> -->
+        <!-- <p class="indent"></p> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- <h3>Professional Summary</h3> -->
+        <!-- <h4>Core Cloud Architecture and Development Expertise</h4> -->
+        <!-- <p class="indent">Architects and implements secure, scalable cloud solutions and resilient cloud-native microservices across AWS and Azure. Proficient in infrastructure-as-code (Terraform), container orchestration (Docker, Kubernetes, Fargate), function-based serverless technologies (Lambda), API Gateway, WAF, authentication/authorization mechanisms, and event-driven architectures. Designs and builds robust and efficient cloud architectures, implementing security best practices at every layer of the cloud stack.</p> -->
+        <!--  -->
+        <!-- <h4>Operational Excellence, Security, and Compliance</h4> -->
+        <!-- <p class="indent">Proficient in database technologies (relational, NoSQL) within cloud environments. Designs and implements secure and performant cloud networking solutions. Develops and implements disaster recovery and business continuity plans for cloud environments. Optimizes cloud resources for cost efficiency while maintaining performance and security. Ensures cloud environments comply with industry regulations and security standards.</p> -->
+        <!--  -->
+        <!-- <h4>DevOps, Observability, and Data-Driven Development</h4> -->
+        <!-- <p class="indent">Maintains and optimizes robust DevOps practices, automated CI/CD pipelines, and agile workflows to accelerate operational efficiency. Builds and manages observability platforms (Prometheus, Grafana, Datadog, ELK) to proactively monitor systems, ensuring high availability and rapid incident response. Drives data-driven business decisions by utilizing metrics and analytics to optimize performance and enhance data reliability.</p> -->
+        <!--  -->
+        <!-- <h4>Developer Experience and Leadership</h4> -->
+        <!-- <p class="indent">Passionate about fostering a positive developer experience and building high-performing engineering teams. Leads by example, mentoring and empowering team members to adopt best practices and streamline workflows. Creates collaborative environments that encourage innovation and continuous improvement, ensuring alignment with business objectives and delivering high-quality solutions. A self-motivated and emotionally grounded leader, demonstrates a proactive approach to problem-solving and a dedication to excellence.</p> -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+
+
+
+        <!-- <h3>Professional Summary</h3> -->
+        <!-- <h4>Core Cloud Architecture and Development Expertise</h4> -->
+        <!-- <p class="indent">Designs and implements secure, scalable, and resilient cloud solutions on AWS and Azure. Proficient in IaC (Terraform), container orchestration (Docker, Kubernetes, Fargate), serverless computing (Lambda), API gateways, WAF, authentication/authorization mechanisms, and event-driven architectures. Builds robust cloud architectures and microservices (Golang, NodeJS, Python), embedding security best practices at every layer.</p> -->
+        <!--  -->
+        <!-- <h4>Operational Excellence, Security, and Compliance</h4> -->
+        <!-- <p class="indent">Proficient in database technologies (relational, NoSQL) within cloud environments. Designs and implements secure and performant cloud networking solutions. Develops and implements disaster recovery and business continuity plans for cloud environments. Optimises cloud resources for cost efficiency while maintaining performance and security. Ensures cloud environments complied with industry regulations and security standards.</p> -->
+        <!--  -->
+        <!-- <h4>DevOps, Observability, and Data Driven Development</h4> -->
+        <!-- <p class="indent">Maintains and optimises robust DevOps practices, automated CI/CD pipelines, and agile workflows to accelerate operational efficiency. Builds and manages observability platforms (Prometheus, Grafana, Datadog, ELK) to proactively monitor systems, ensuring high availability and rapid incident response. Drives data driven business decisions by utilizing metrics and analytics to optimize performance and enhance data reliability.</p> -->
+        <!--  -->
+        <!-- <h4>Developer Experience and Leadership</h4> -->
+        <!-- <p class="indent">Passionate about fostering a positive developer experience and building high performing engineering teams. Leads by example, mentoring and empowering team members to adopt best practices and streamline workflows. Creates collaborative environments that encourage innovation and continuous improvement, ensuring alignment with business objectives and delivering high quality solutions. A self motivated and emotionally grounded leader, demonstrating a proactive approach to problem solving and a dedication to excellence.</p> -->
+        <!--  -->
