@@ -157,6 +157,13 @@ h4 {
     right:110px;
   }
 
+  #darkModeToggle img {
+    width:20px;
+  }
+
+  #downloadDiv img {
+    width:17px;
+  }
 }
 
 
@@ -193,14 +200,10 @@ h4 {
   }
 
   #darkModeToggle {
-    position: absolute;
-    top:40px;
-    right:40px;
-  }
-  #downloadDiv {
-    position: absolute;
-    top:40px;
-    right:80px;
+    display:none
   }
 
+  #downloadDiv {
+    display:none
+  }
 }
