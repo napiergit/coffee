@@ -172,8 +172,50 @@ p {
   }
 }
 
+@media only screen and (max-width: 750px) and (min-width: 741px){
+  .resume-frame {
+    width:100%;
+    margin:0px;
+  }
 
-@media only screen and (max-width: 750px) and (min-width: 0px){
+  .indent {
+    margin-left: 3px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .logo-summary {
+    margin-top:5px;
+    font-size:12px;
+  }
+
+  .experience-description {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .experience-container {
+    width: 45%;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    margin-right:10px;
+    margin-bottom:20px;
+  }
+
+  #darkModeToggle {
+    display:none
+  }
+
+  #downloadDiv {
+    display:none
+  }
+}
+
+
+@media only screen and (max-width: 741px) and (min-width: 0px){
   .resume-frame {
     width:100%;
     margin:0px;
