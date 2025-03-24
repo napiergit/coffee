@@ -110,6 +110,11 @@ h4 {
   background: #eae4f5;
 }
 
+p {
+  text-align:justify;
+  line-height: 1.6;
+}
+
 
 @media only screen and (max-width: 5000px) and (min-width: 751px){
   .resume-frame {
@@ -122,9 +127,10 @@ h4 {
 
   .indent {
     margin-left: 3px;
-    text-align:justify;
+  }
+
+  p {
     font-size: 14px;
-    line-height: 1.6;
   }
 
   .logo-summary {
@@ -175,9 +181,10 @@ h4 {
 
   .indent {
     margin-left: 3px;
-    text-align:justify;
+  }
+
+  p {
     font-size: 16px;
-    line-height: 1.6;
   }
 
   .logo-summary {

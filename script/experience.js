@@ -6,6 +6,7 @@ const education = [
     title: 'Bachelor of Engineering',
     dates: '2010 - 2014',
     accomplishments: 'Electrical and Electronic',
+    order: 1,
   },
 ]
 
@@ -18,6 +19,7 @@ const experiences = [
     dates: '12/2015 - 10/2017',
     // dates: '[2016 - 2018)',
     accomplishments: 'Full stack',
+    order: 1,
   },
   {
     name: 'Luno',
@@ -27,6 +29,7 @@ const experiences = [
     dates: '10/2017 - 02/2021',
     // dates: '[2018 - 2021)',
     accomplishments: 'Cross-functional teamwork',
+    order: 2,
   },
   {
     name: 'Paystack',
@@ -36,6 +39,7 @@ const experiences = [
     dates: '02/2021 - 01/2022',
     // dates: '[2021 - 2022)',
     accomplishments: 'Migrations and Integrations',
+    order: 3,
   },
   {
     name: 'Merge',
@@ -45,6 +49,7 @@ const experiences = [
     dates: '01/2022 - 03/2023',
     // dates: '[2022 - 2023)',
     accomplishments: 'Zero to One',
+    order: 4,
   },
   {
     name: 'IQVIA',
@@ -54,13 +59,16 @@ const experiences = [
     dates: '07/2023 - 12/2025',
     // dates: '[2024 - 2025)',
     accomplishments: 'Maintenance',
+    order: 5,
   },
 ]
 
 const genHtml = (items) => {
   let html = '';
 
-  items.forEach((item) => {
+  const blah = items.sort((a, b) => b.order - a.order);
+
+  blah.forEach((item) => {
     html += `
       <div class="experience-container"
            style="cursor: pointer;"
