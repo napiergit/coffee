@@ -17,6 +17,10 @@
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link rel="stylesheet" type="text/css" href="css/tooltip.css"/>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"</script>
+
+
     <script>
       function openInNewTab(url) {
           window.open(url, '_blank').focus();
@@ -49,27 +53,12 @@
 
         <p class="indent">This leads me to the purpose of this blurb.</p>
 
-        <p class="indent">I’m looking for an inspired team with exciting projects to contribute to.  A company culture that fosters genuine wellbeing is essential to me.  I find buy-in to a vision and freedom to execute motivating.  Feel free to schedule a call below:</p>
-
-        <div style="margin-top:24px;">
-          <!-- Google Calendar Appointment Scheduling begin -->
-          <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
-          <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
-          <script>
-            (function() {
-                var target = document.currentScript;
-                window.addEventListener('load', function() {
-                      calendar.schedulingButton.load({
-                              url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ0pgtpTqUJxBCOoW2fxsXh8xVBO7Mcs-DXpRXyJVPhKR9N-0IBJOrwVwVJivvIGvhJWteh4LBiW?gv=true',
-                              color: '#F6BF26',
-                              label: 'Reservar una cita',
-                              target,
-                            });
-                    });
-            })();
-          </script>
-          <!-- end Google Calendar Appointment Scheduling -->
-        </div>
+        <p class="indent">
+          <span>I’m looking for an inspired team with exciting projects to contribute to.  A company culture that fosters genuine wellbeing is essential to me.  I find buy-in to a vision and freedom to execute motivating.  Feel free to schedule a call</span>
+          <span id="calendar-icon" style="cursor:pointer" >
+            <i class="far fa-calendar"></i>
+          </span>.
+        </p>
 
         <!-- <p class="indent">My rate is $40 per hour for at 30 hours per week. Overtime is double.</p> -->
 
@@ -98,5 +87,6 @@
   <script src="script/experience.js"></script>
   <script src="script/night.js"></script>
   <script src="script/download.js"></script>
+  <script src="script/calendar.js"></script>
 
 </html>
