@@ -56,7 +56,7 @@ const experiences = [
     link: 'https://www.iqvia.com',
     image: 'https://iqvia.com/-/media/iqvia/iqvia_lg_hrz_rgb.svg',
     title: 'Lead Cloud Engineer',
-    dates: '07/2023 - 12/2025',
+    dates: '07/2023 - 12/2024',
     // dates: '[2024 - 2025)',
     accomplishments: 'Maintenance',
     order: 5,

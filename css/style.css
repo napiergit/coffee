@@ -1,3 +1,5 @@
+* { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+
 :root {
   --bg-color: white;
 }
@@ -242,6 +244,53 @@ p {
 
   .experience-container {
     width: 100%;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    margin-right:10px;
+    margin-bottom:20px;
+  }
+
+  #darkModeToggle {
+    display:none
+  }
+
+  #downloadDiv {
+    display:none
+  }
+}
+
+@media print {
+  body {
+    break-inside: avoid;
+  }
+
+  .resume-frame {
+    width:100%;
+    margin:0px;
+    break-inside: avoid;
+  }
+
+  .indent {
+    margin-left: 3px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .logo-summary {
+    margin-top:5px;
+    font-size:12px;
+  }
+
+  .experience-description {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .experience-container {
+    width: 45%;
     flex-direction: column;
     /* border: 1px solid black; */
     margin-right:10px;
