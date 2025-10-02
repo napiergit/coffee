@@ -104,7 +104,7 @@ const experiences = [
     accomplishments: 'Zero to One',
     responsibilities: [
       "Designed and implemented a payment gateway",
-      "Build a ledger",
+      "Built a ledger",
       "Integrated with payments providers",
       "Banking security and compliance",
     ],

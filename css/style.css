@@ -19,8 +19,15 @@
   width:150px;
 }
 
+pre {
+  line-height: 1.3;
+}
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: monospace;
+  line-height: 1.3;
+  font-size: 12px;
   overflow-x:scroll;
   background-color: var(--bg-color);
   transition: background-color 0.3s, color 0.3s; /* Smooth transition */
@@ -151,10 +158,6 @@ p {
     margin-left: 3px;
   }
 
-  p {
-    font-size: 14px;
-  }
-
   .logo-summary {
     margin-top:5px;
     font-size:8px;
@@ -162,7 +165,6 @@ p {
 
   .experience-description {
     text-align: center;
-    font-size: 14px;
     line-height: 1.6;
   }
 
@@ -204,10 +206,6 @@ p {
     margin-left: 3px;
   }
 
-  p {
-    font-size: 16px;
-  }
-
   .logo-summary {
     margin-top:5px;
     font-size:12px;
@@ -215,7 +213,6 @@ p {
 
   .experience-description {
     text-align: center;
-    font-size: 16px;
     line-height: 1.6;
   }
 
@@ -247,10 +244,6 @@ p {
     margin-left: 3px;
   }
 
-  p {
-    font-size: 16px;
-  }
-
   .logo-summary {
     margin-top:5px;
     font-size:12px;
@@ -258,7 +251,6 @@ p {
 
   .experience-description {
     text-align: center;
-    font-size: 16px;
     line-height: 1.6;
   }
 
@@ -294,10 +286,6 @@ p {
     margin-left: 3px;
   }
 
-  p {
-    font-size: 16px;
-  }
-
   .logo-summary {
     margin-top:5px;
     font-size:12px;
@@ -305,7 +293,7 @@ p {
 
   .experience-description {
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.6;
   }
 

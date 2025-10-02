@@ -21,8 +21,8 @@ async function generatePdfFromHtml(htmlPath, outputPath) {
       await page.pdf({
         printBackground: true,
         path: outputPath,
-        width: 910,
-        height: 2580,
+        width: 750,
+        height: 2600,
       });
 
       await browser.close();
