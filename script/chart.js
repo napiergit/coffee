@@ -18,9 +18,9 @@ const skills = {
   // DBs
   // MySQL: 4.5,
   // Postgres: 3,
-  RDBMS: 7.5,
+  'RDBMS (mysql/psql)': 7.5,
   // MongoDB: 3,
-  NoSQL: 3,
+  'NoSQL (mongo/redis)': 3,
 
   // Infra
   AWS: 2,

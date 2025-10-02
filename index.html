@@ -56,10 +56,10 @@
         <p class="indent">
           <!-- <span>Which leads me to the purpose of this blurb:</span> -->
           <!-- <br/> -->
-          <span>I’m currently looking for an inspired team with exciting projects to contribute to, in a company culture that fosters genuine wellbeing.  I find buy-in to a vision and freedom to execute motivating.  Let's have a chat </span>
-          <span id="calendar-icon" style="cursor:pointer" >
+          <span>I’m currently looking for an inspired team with exciting projects to contribute to, in a company culture that fosters genuine wellbeing.  I find buy-in to a vision and freedom to execute motivating.  </span><span class="no-print">Let's have a chat </span>
+          <span class="no-print" id="calendar-icon" style="cursor:pointer" >
             <i class="far fa-calendar"></i>
-          </span>.
+          </span><span class="no-print">.</span>
         </p>
 
         <!-- <p class="indent">My rate is $40 per hour for at 30 hours per week. Overtime is double.</p> -->
@@ -72,32 +72,13 @@
           <canvas id="myChart"></canvas>
         </div>
 
-        <h3>Proficiency</h3>
-        <p class="indent">
-          <span>Frontend (Web, APIs)</span>
-          <br/>
-          <span> - Full Stack Software Engineer</span>
-        </p>
-        <p class="indent">
-          <span>Backend (Microservices, APIs, Events, Fault Tolerance)</span>
-          <br/>
-          <span> - Senior Backend Engineer</span>
-          <br/>
-          <span> - Backend Architect</span>
-        </p>
-        <p class="indent">
-          <span>Data (Operational, Analytics, Lake, ETL, Migration)</span>
-          <br/>
-          <span> - Data Engineer</span>
-        </p>
-        <p class="indent">
-          <span>DevOps (CI/CD, Security, IaC, O11y)</span>
-          <br/>
-          <span> - Platform Engineer</span>
-        </p>
+        <div id="roles-container" class="roles-container"></div>
 
         <h3>Education</h3>
         <div id="education-container" class="experiences-container"></div>
+
+        <div id="proficiency"></div>
+
 
       </div>
     </div>
@@ -108,5 +89,6 @@
   <script src="script/night.js"></script>
   <script src="script/download.js"></script>
   <script src="script/calendar.js"></script>
+  <script src="script/proficiency.js"></script>
 
 </html>

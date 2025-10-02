@@ -91,6 +91,17 @@ h4 {
 
 .experience-dates {
   font-style: italic;
+  display: none;
+}
+
+.experience-accomplishments {
+  display: none;
+}
+
+.roles-container pre {
+  /* text: wrap; */
+  white-space: pre-wrap;   [> preserve whitespace but allow wrapping <]
+  word-wrap: break-word;
 }
 
 .margin {
@@ -285,17 +296,27 @@ p {
 
   .experience-description {
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.6;
   }
 
   .experience-container {
-    width: 45%;
+    width: 180px;
     flex-direction: column;
     /* border: 1px solid black; */
     margin-right:10px;
     margin-bottom:20px;
   }
+
+  .no-print {
+    display:none;
+  }
+
+  .experience-dates {
+    font-style: italic;
+    display: block;
+  }
+
 
   #darkModeToggle {
     display:none
