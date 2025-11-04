@@ -37,7 +37,7 @@ body {
   display:flex;
   justify-content:center;
   /* background:#dae1fd; */
-  align-items:center;
+  align-items:flex-start;
 }
 
 body.dark-mode {
