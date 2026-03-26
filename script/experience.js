@@ -142,6 +142,7 @@ const experiences = [
     ],
     order: 5,
   },
+  /*
   {
     name: 'Scrums.com',
     link: 'https://scrums.com',
@@ -164,6 +165,7 @@ const experiences = [
     ],
     order: 6,
   },
+  */
 ]
 
 const genHtml = (items) => {
