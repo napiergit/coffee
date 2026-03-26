@@ -145,7 +145,7 @@ const experiences = [
   {
     name: 'Scrums.com',
     link: 'https://scrums.com',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/b/b9/Prosus_logo.svg',
+    image: 'https://www.prosus.com/~/media/Images/P/prosus-corp-v2/logo/logo.png',
     role: 'Independent Contractor',
     contractedTo: 'Prosus',
     title: 'Principal Software Engineer',
