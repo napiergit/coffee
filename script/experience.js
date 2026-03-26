@@ -160,7 +160,6 @@ const experiences = [
     ],
     stack: [
       "AWS",
-      "IaC",
       "Claude",
     ],
     order: 6,
