@@ -1,4 +1,7 @@
-* { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+* {
+  -webkit-print-color-adjust: exact !important;
+  print-color-adjust: exact !important;
+}
 
 :root {
   --bg-color: white;
@@ -11,12 +14,12 @@
 }
 
 .mugshot {
-  float:right;
+  float: right;
   border: 1px solid black;
 }
 
 .mugshot img {
-  width:150px;
+  width: 150px;
 }
 
 pre {
@@ -28,16 +31,17 @@ body {
   font-family: monospace;
   line-height: 1.3;
   font-size: 12px;
-  overflow-x:scroll;
+  overflow-x: scroll;
   background-color: var(--bg-color);
-  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+  transition: background-color 0.3s, color 0.3s;
+  /* Smooth transition */
 
-  width:100%;
-  margin:0;
-  display:flex;
-  justify-content:center;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
   /* background:#dae1fd; */
-  align-items:flex-start;
+  align-items: flex-start;
 }
 
 body.dark-mode {
@@ -51,48 +55,49 @@ body.light-mode {
 
 .flex-container {
   display: flex;
-  width:100%;
+  width: 100%;
   flex-direction: row;
 }
 
 h1 {
-  font-weight:1;
-  margin-bottom:0px;
+  font-weight: 1;
+  margin-bottom: 0px;
 }
 
 h2 {
-  font-weight:1;
+  font-weight: 1;
 }
 
 h3 {
-  font-weight:1;
+  font-weight: 1;
   text-decoration: underline;
-  margin-top:34px;
+  margin-top: 34px;
   font-style: italic;
 }
 
 h4 {
-  font-weight:1;
+  font-weight: 1;
 }
 
 .chart-container {
-  height: 400px; /* Adjust as needed */
+  height: 400px;
+  /* Adjust as needed */
 }
 
 .experiences-container {
   display: flex;
-  width:100%;
+  width: 100%;
   flex-direction: row;
   justify-content: flex-start;
   flex-wrap: wrap;
-  margin-top:40px;
+  margin-top: 40px;
 }
 
 .experience-image {
   width: 100%;
   display: flex;
-  justify-content:center;
-  align-items:center;
+  justify-content: center;
+  align-items: center;
   height: 40px;
 }
 
@@ -116,7 +121,8 @@ h4 {
 
 .roles-container pre {
   /* text: wrap; */
-  white-space: pre-wrap;   [> preserve whitespace but allow wrapping <]
+  white-space: pre-wrap;
+  /* preserve whitespace but allow wrapping */
   word-wrap: break-word;
 }
 
@@ -140,15 +146,19 @@ h4 {
 }
 
 p {
-  text-align:justify;
+  text-align: justify;
   line-height: 1.6;
 }
 
 
-@media only screen and (max-width: 5000px) and (min-width: 751px){
+@media only screen and (max-width: 5000px) and (min-width: 751px) {
+  body {
+    padding-bottom: 80px;
+  }
+
   .resume-frame {
-    width:96%;
-    margin:80px 0px;
+    width: 96%;
+    margin: 80px 0px;
     border: 1px solid #92949d;
     box-shadow: 7px 12px #888888;
     max-width: 700px;
@@ -159,8 +169,8 @@ p {
   }
 
   .logo-summary {
-    margin-top:5px;
-    font-size:8px;
+    margin-top: 5px;
+    font-size: 8px;
   }
 
   .experience-description {
@@ -172,34 +182,35 @@ p {
     width: 180px;
     flex-direction: column;
     /* border: 1px solid black; */
-    margin-right:10px;
-    margin-bottom:20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
   }
 
   #darkModeToggle {
     position: absolute;
-    top:40px;
-    right:70px;
+    top: 40px;
+    right: 70px;
   }
+
   #downloadDiv {
     position: absolute;
-    top:40px;
-    right:110px;
+    top: 40px;
+    right: 110px;
   }
 
   #darkModeToggle img {
-    width:20px;
+    width: 20px;
   }
 
   #downloadDiv img {
-    width:17px;
+    width: 17px;
   }
 }
 
-@media only screen and (max-width: 750px) and (min-width: 741px){
+@media only screen and (max-width: 750px) and (min-width: 741px) {
   .resume-frame {
-    width:100%;
-    margin:0px;
+    width: 100%;
+    margin: 0px;
   }
 
   .indent {
@@ -207,8 +218,8 @@ p {
   }
 
   .logo-summary {
-    margin-top:5px;
-    font-size:12px;
+    margin-top: 5px;
+    font-size: 12px;
   }
 
   .experience-description {
@@ -220,24 +231,24 @@ p {
     width: 45%;
     flex-direction: column;
     /* border: 1px solid black; */
-    margin-right:10px;
-    margin-bottom:20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
   }
 
   #darkModeToggle {
-    display:none
+    display: none
   }
 
   #downloadDiv {
-    display:none
+    display: none
   }
 }
 
 
-@media only screen and (max-width: 741px) and (min-width: 0px){
+@media only screen and (max-width: 741px) and (min-width: 0px) {
   .resume-frame {
-    width:100%;
-    margin:0px;
+    width: 100%;
+    margin: 0px;
   }
 
   .indent {
@@ -245,8 +256,8 @@ p {
   }
 
   .logo-summary {
-    margin-top:5px;
-    font-size:12px;
+    margin-top: 5px;
+    font-size: 12px;
   }
 
   .experience-description {
@@ -258,16 +269,16 @@ p {
     width: 100%;
     flex-direction: column;
     /* border: 1px solid black; */
-    margin-right:10px;
-    margin-bottom:20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
   }
 
   #darkModeToggle {
-    display:none
+    display: none
   }
 
   #downloadDiv {
-    display:none
+    display: none
   }
 }
 
@@ -277,8 +288,8 @@ p {
   }
 
   .resume-frame {
-    width:100%;
-    margin:0px;
+    width: 100%;
+    margin: 0px;
     break-inside: avoid;
   }
 
@@ -287,8 +298,8 @@ p {
   }
 
   .logo-summary {
-    margin-top:5px;
-    font-size:12px;
+    margin-top: 5px;
+    font-size: 12px;
   }
 
   .experience-description {
@@ -301,12 +312,12 @@ p {
     width: 180px;
     flex-direction: column;
     /* border: 1px solid black; */
-    margin-right:10px;
-    margin-bottom:20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
   }
 
   .no-print {
-    display:none;
+    display: none;
   }
 
   .experience-dates {
@@ -316,10 +327,10 @@ p {
 
 
   #darkModeToggle {
-    display:none
+    display: none
   }
 
   #downloadDiv {
-    display:none
+    display: none
   }
 }
