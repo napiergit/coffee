@@ -155,7 +155,7 @@ const experiences = [
     accomplishments: 'AI Integration',
     responsibilities: [
       "Built MCPs to give AI agents agency",
-      "Multi tenant authentication and authorization for MCPs",
+      "Designed and implemented multi tenant authn and authz for MCPs",
     ],
     stack: [
       "AWS",
