@@ -145,9 +145,9 @@ const experiences = [
   {
     name: 'Scrums.com',
     link: 'https://scrums.com',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/e/e0/Prosus_logo.svg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/b/b9/Prosus_logo.svg',
     role: 'Independent Contractor',
-    project: 'Prosus',
+    contractedTo: 'Prosus',
     title: 'Principal Software Engineer',
     dates: '01/2025 - Present',
     accomplishments: 'AI Integration',
@@ -218,7 +218,7 @@ const genRolesHtml = (items) => {
     })
 
     let roleStr = item.role ? `\n  Role: ${item.role}` : '';
-    let projStr = item.project ? `\n  Project: ${item.project}` : '';
+    let projStr = item.contractedTo ? `\n  Contracted To: ${item.contractedTo}` : item.project ? `\n  Project: ${item.project}` : '';
 
     html += `
       <div class="roles-container">
