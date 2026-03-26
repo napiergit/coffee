@@ -22,7 +22,7 @@ async function generatePdfFromHtml(htmlPath, outputPath) {
       printBackground: true,
       path: outputPath,
       width: 750,
-      height: 2600,
+      height: 2850,
     });
 
     await browser.close();
