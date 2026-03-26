@@ -144,6 +144,7 @@ const experiences = [
   },
   {
     name: 'Scrums.com',
+    hideFromHistory: true,
     link: 'https://prosus.com',
     secondaryLink: 'https://scrums.com',
     image: 'https://www.prosus.com/~/media/Images/P/prosus-corp-v2/logo/logo.png',
@@ -172,6 +173,7 @@ const genHtml = (items) => {
   const blah = items.sort((a, b) => b.order - a.order);
 
   blah.forEach((item) => {
+    if (item.hideFromHistory) return;
     if (item.secondaryImage) {
       html += `
         <div class="experience-container"
