@@ -144,7 +144,6 @@ const experiences = [
   },
   {
     name: 'Scrums.com',
-    hideFromHistory: true,
     link: 'https://prosus.com',
     secondaryLink: 'https://scrums.com',
     image: 'https://www.prosus.com/~/media/Images/P/prosus-corp-v2/logo/logo.png',
@@ -173,30 +172,16 @@ const genHtml = (items) => {
   const blah = items.sort((a, b) => b.order - a.order);
 
   blah.forEach((item) => {
-    if (item.hideFromHistory) return;
     if (item.secondaryImage) {
       html += `
         <div class="experience-container"
-             style="width: 360px; max-width: 100%;">
-          <div style="display: flex; flex-direction: row; width: 100%; justify-content: space-evenly; gap: 10px;">
-            <div style="display: flex; flex-direction: column; flex: 1; align-items: center; cursor: pointer;" onclick="openInNewTab('${item.link}')">
-              <div class="experience-image">
-                <img src="${item.image}"/>
-              </div>
-              <div class="experience-description">
-                <div class="experience-title">${item.title}</div>
-              </div>
-            </div>
-            <div style="display: flex; flex-direction: column; flex: 1; align-items: center; cursor: pointer;" onclick="openInNewTab('${item.secondaryLink || item.link}')">
-              <div class="experience-image">
-                <img src="${item.secondaryImage}"/>
-              </div>
-              <div class="experience-description">
-                <div class="experience-title">${item.secondaryTitle}</div>
-              </div>
-            </div>
+             style="cursor: pointer;"
+             onclick="openInNewTab('${item.link}')">
+          <div class="experience-image">
+            <img src="${item.image}"/>
           </div>
-          <div class="experience-description" style="width: 100%; margin-top: 5px;">
+          <div class="experience-description">
+            <div class="experience-title">${item.title}</div>
             <div class="experience-accomplishments">${item.accomplishments}</div>
             <div class="experience-dates">${item.dates}</div>
           </div>
