@@ -1,0 +1,27 @@
+# Andrew Napier - Resume and Portfolio
+Website: https://napier.global
+
+## About
+Andrew Napier is a Lead Cloud Engineer and Principal Software Engineer with over 8 years of professional experience across varied industries. Andrew has extensive experience in AI, cloud architecture, backend systems, and DevOps.
+
+## Tech Stack
+- Backend: Golang, NodeJS, Python, Bash
+- Frontend: Javascript
+- Databases: PostgreSQL, MySQL, MongoDB, Redis
+- Cloud & Infrastructure: AWS, Azure, Terraform, Docker, Kubernetes
+- CI/CD: Github Actions, CircleCI
+- Observability: Datadog, ELK, Prometheus, Grafana
+- AI: Claude, MCP (Model Context Protocol)
+
+## Work Experience
+- Scrums.com: Principal Software Engineer
+- IQVIA: Lead Cloud Engineer
+- Merge: Head of Engineering
+- Paystack: Senior Software Engineer
+- Luno: Full Stack Engineer
+- Jembi Health Systems: Junior Software Developer
+
+## Education
+University of Stellenbosch, Bachelor of Engineering (Electrical and Electronic)
+
+Hire or contact Andrew Napier for roles such as Lead Cloud Engineer, Senior Backend Engineer, Platform Engineer, Data Engineer, or Full Stack Software Engineer.

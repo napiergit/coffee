@@ -57,6 +57,10 @@ const skills = {
   // DHIS: 1,
   // 'Azure AD B2C': 1,
   // OAuth: 1,
+
+  // AI
+  AI: 1,
+  MCP: 1,
 }
 
 function sortObjectByValues(obj) {
@@ -65,7 +69,7 @@ function sortObjectByValues(obj) {
   const sortedKeys = entries.map(([key]) => key)
   const sortedValues = entries.map(([, value]) => value)
 
-  return {k: sortedKeys, v: sortedValues}
+  return { k: sortedKeys, v: sortedValues }
 }
 
 const bleh = sortObjectByValues(skills)

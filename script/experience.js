@@ -142,6 +142,26 @@ const experiences = [
     ],
     order: 5,
   },
+  {
+    name: 'Scrums.com',
+    link: 'https://scrums.com',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/e/e0/Prosus_logo.svg',
+    role: 'Independent Contractor',
+    project: 'Prosus',
+    title: 'Principal Software Engineer',
+    dates: '01/2025 - Present',
+    accomplishments: 'AI Integration',
+    responsibilities: [
+      "Built MCPs to give AI agents agency",
+      "Multi tenant authentication and authorization for MCPs",
+    ],
+    stack: [
+      "AWS",
+      "IaC",
+      "Claude",
+    ],
+    order: 6,
+  },
 ]
 
 const genHtml = (items) => {
@@ -187,7 +207,7 @@ const genRolesHtml = (items) => {
     // resHtml += '<br>';
 
     item.responsibilities.forEach((r, i) => {
-      resHtml += `\n\t${i+1}. ${r}`
+      resHtml += `\n\t${i + 1}. ${r}`
     })
     // resHtml += '</pre>';
 
@@ -197,10 +217,13 @@ const genRolesHtml = (items) => {
       if (++counter < item.stack.length) { stackHtml += ', ' };
     })
 
+    let roleStr = item.role ? `\n  Role: ${item.role}` : '';
+    let projStr = item.project ? `\n  Project: ${item.project}` : '';
+
     html += `
       <div class="roles-container">
         <pre>
-  Company: ${item.name}
+  Company: ${item.name}${roleStr}${projStr}
   Title: ${item.title}
   Stack: ${stackHtml}
   Responsibilities: ${resHtml}
@@ -227,7 +250,7 @@ const expHtml = genHtml(experiences)
 
 const rolesHtml = genRolesHtml(experiences)
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   const exp = document.getElementById('experiences-container');
   const edu = document.getElementById('education-container');
   const rol = document.getElementById('roles-container');
