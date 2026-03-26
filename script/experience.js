@@ -146,9 +146,11 @@ const experiences = [
     name: 'Scrums.com',
     link: 'https://scrums.com',
     image: 'https://www.prosus.com/~/media/Images/P/prosus-corp-v2/logo/logo.png',
+    secondaryImage: 'https://cdn.prod.website-files.com/6489c69e685986b7b33c53e8/68303d4e66d5bc192fb6b473_logo_text.svg',
     role: 'Independent Contractor',
     contractedTo: 'Prosus',
     title: 'Principal Software Engineer',
+    secondaryTitle: 'Independent Contractor',
     dates: '01/2025 - Present',
     accomplishments: 'AI Integration',
     responsibilities: [
@@ -170,20 +172,51 @@ const genHtml = (items) => {
   const blah = items.sort((a, b) => b.order - a.order);
 
   blah.forEach((item) => {
-    html += `
-      <div class="experience-container"
-           style="cursor: pointer;"
-           onclick="openInNewTab('${item.link}')">
-        <div class="experience-image">
-          <img src="${item.image}"/>
+    if (item.secondaryImage) {
+      html += `
+        <div class="experience-container"
+             style="cursor: pointer; width: 360px; max-width: 100%;"
+             onclick="openInNewTab('${item.link}')">
+          <div style="display: flex; flex-direction: row; width: 100%; justify-content: space-evenly; gap: 10px;">
+            <div style="display: flex; flex-direction: column; flex: 1; align-items: center;">
+              <div class="experience-image">
+                <img src="${item.image}"/>
+              </div>
+              <div class="experience-description">
+                <div class="experience-title">${item.title}</div>
+              </div>
+            </div>
+            <div style="display: flex; flex-direction: column; flex: 1; align-items: center;">
+              <div class="experience-image">
+                <img src="${item.secondaryImage}"/>
+              </div>
+              <div class="experience-description">
+                <div class="experience-title">${item.secondaryTitle}</div>
+              </div>
+            </div>
+          </div>
+          <div class="experience-description" style="width: 100%; margin-top: 5px;">
+            <div class="experience-accomplishments">${item.accomplishments}</div>
+            <div class="experience-dates">${item.dates}</div>
+          </div>
         </div>
-        <div class="experience-description">
-          <div class="experience-title">${item.title}</div>
-          <div class="experience-accomplishments">${item.accomplishments}</div>
-          <div class="experience-dates">${item.dates}</div>
-        </div>
-      </div>
       `;
+    } else {
+      html += `
+        <div class="experience-container"
+             style="cursor: pointer;"
+             onclick="openInNewTab('${item.link}')">
+          <div class="experience-image">
+            <img src="${item.image}"/>
+          </div>
+          <div class="experience-description">
+            <div class="experience-title">${item.title}</div>
+            <div class="experience-accomplishments">${item.accomplishments}</div>
+            <div class="experience-dates">${item.dates}</div>
+          </div>
+        </div>
+      `;
+    }
   });
   return html
 }
