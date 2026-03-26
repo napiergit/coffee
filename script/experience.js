@@ -142,10 +142,10 @@ const experiences = [
     ],
     order: 5,
   },
-  /*
   {
     name: 'Scrums.com',
-    link: 'https://scrums.com',
+    link: 'https://prosus.com',
+    secondaryLink: 'https://scrums.com',
     image: 'https://www.prosus.com/~/media/Images/P/prosus-corp-v2/logo/logo.png',
     secondaryImage: 'https://cdn.prod.website-files.com/6489c69e685986b7b33c53e8/68303d4e66d5bc192fb6b473_logo_text.svg',
     role: 'Independent Contractor',
@@ -165,7 +165,6 @@ const experiences = [
     ],
     order: 6,
   },
-  */
 ]
 
 const genHtml = (items) => {
@@ -177,10 +176,9 @@ const genHtml = (items) => {
     if (item.secondaryImage) {
       html += `
         <div class="experience-container"
-             style="cursor: pointer; width: 360px; max-width: 100%;"
-             onclick="openInNewTab('${item.link}')">
+             style="width: 360px; max-width: 100%;">
           <div style="display: flex; flex-direction: row; width: 100%; justify-content: space-evenly; gap: 10px;">
-            <div style="display: flex; flex-direction: column; flex: 1; align-items: center;">
+            <div style="display: flex; flex-direction: column; flex: 1; align-items: center; cursor: pointer;" onclick="openInNewTab('${item.link}')">
               <div class="experience-image">
                 <img src="${item.image}"/>
               </div>
@@ -188,7 +186,7 @@ const genHtml = (items) => {
                 <div class="experience-title">${item.title}</div>
               </div>
             </div>
-            <div style="display: flex; flex-direction: column; flex: 1; align-items: center;">
+            <div style="display: flex; flex-direction: column; flex: 1; align-items: center; cursor: pointer;" onclick="openInNewTab('${item.secondaryLink || item.link}')">
               <div class="experience-image">
                 <img src="${item.secondaryImage}"/>
               </div>
