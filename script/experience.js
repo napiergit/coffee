@@ -152,7 +152,7 @@ const experiences = [
     contractedTo: 'Prosus',
     title: 'Principal Software Engineer',
     secondaryTitle: 'Independent Contractor',
-    dates: '01/2025 - Present',
+    dates: '11/2025 - Present',
     accomplishments: 'AI Integration',
     responsibilities: [
       "Built MCPs to give AI agents agency",
