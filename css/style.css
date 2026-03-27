@@ -14,15 +14,12 @@
 }
 
 .mugshot {
-  display: flex;
-  justify-content: center;
-  border: none;
-  margin-bottom: 20px;
+  float: right;
+  border: 1px solid black;
 }
 
 .mugshot img {
   width: 150px;
-  border: 1px solid black;
 }
 
 pre {
@@ -255,6 +252,18 @@ p a:visited {
 
 
 @media only screen and (max-width: 741px) and (min-width: 0px) {
+  .mugshot {
+    float: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .mugshot img {
+    border: 1px solid black;
+  }
+
   .resume-frame {
     width: 100%;
     margin: 0px;
