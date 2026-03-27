@@ -145,7 +145,6 @@ h4 {
 
 .resume-frame {
   background: #eae4f5;
-  overflow: hidden;
 }
 
 p {
@@ -273,11 +272,6 @@ p a:visited {
   .resume-frame {
     width: 100%;
     margin: 0px;
-  }
-
-  pre {
-    white-space: pre-wrap;
-    word-wrap: break-word;
   }
 
   .indent {
