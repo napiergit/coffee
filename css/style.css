@@ -264,6 +264,11 @@ p a:visited {
     border: 1px solid black;
   }
 
+  h1,
+  h1+p {
+    text-align: center;
+  }
+
   .resume-frame {
     width: 100%;
     margin: 0px;
