@@ -14,12 +14,15 @@
 }
 
 .mugshot {
-  float: right;
-  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  border: none;
+  margin-bottom: 20px;
 }
 
 .mugshot img {
   width: 150px;
+  border: 1px solid black;
 }
 
 pre {
