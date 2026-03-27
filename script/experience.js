@@ -226,9 +226,8 @@ const genRolesHtml = (items) => {
     // resHtml += '<br>';
 
     item.responsibilities.forEach((r, i) => {
-      resHtml += `\n\t${i + 1}. ${r}`
+      resHtml += `<div style="padding-left: 2.5em; text-indent: -1.5em;">${i + 1}. ${r}</div>`
     })
-    // resHtml += '</pre>';
 
     let counter = 0;
     item.stack.forEach((s) => {
@@ -245,8 +244,7 @@ const genRolesHtml = (items) => {
   Company: ${item.name}${roleStr}${projStr}
   Title: ${item.title}
   Stack: ${stackHtml}
-  Responsibilities: ${resHtml}
-        </pre>
+  Responsibilities:</pre>${resHtml}
       </div>
       `;
 
