@@ -108,6 +108,14 @@ h4 {
   margin-bottom: 10px;
 }
 
+#education-container .experience-image {
+  height: auto;
+}
+
+#education-container .experience-image img {
+  max-height: none;
+}
+
 .experience-title {
   font-weight: 550;
 }
