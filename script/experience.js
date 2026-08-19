@@ -2,7 +2,7 @@ const education = [
   {
     name: 'University of Stellenbosch',
     link: 'https://www.sun.ac.za',
-    image: 'https://blogs.sun.ac.za/ccmd/files/2023/07/SU-Logo.png',
+    image: 'img/sun.jpg',
     title: 'Bachelor of Engineering',
     dates: '2010 - 2014',
     accomplishments: 'Electrical and Electronic',
@@ -39,7 +39,7 @@ const experiences = [
   {
     name: 'Luno',
     link: 'https://www.luno.com',
-    image: 'https://altcoinsbox.com/wp-content/uploads/2023/04/full-luno-logo.png',
+    image: 'img/luno.svg',
     // title: 'Full Stack Software Developer',
     title: 'Full Stack Engineer',
     dates: '10/2017 - 02/2021',
@@ -97,7 +97,7 @@ const experiences = [
   {
     name: 'Merge',
     link: 'https://www.merge.money',
-    image: 'https://cdn.prod.website-files.com/64ae94d714672f239e520a55/64ae9bf3d769aedd08270d58_Merge-logo-white.svg',
+    image: 'img/merge.svg',
     title: 'Head of Engineering',
     dates: '01/2022 - 03/2023',
     // dates: '[2022 - 2023)',
@@ -122,7 +122,7 @@ const experiences = [
   {
     name: 'IQVIA',
     link: 'https://www.iqvia.com',
-    image: 'https://iqvia.com/-/media/iqvia/iqvia_lg_hrz_rgb.svg',
+    image: 'img/iqvia.svg',
     title: 'Lead Cloud Engineer',
     dates: '07/2023 - 12/2024',
     // dates: '[2024 - 2025)',
@@ -146,8 +146,8 @@ const experiences = [
     name: 'Scrums.com',
     link: 'https://prosus.com',
     secondaryLink: 'https://scrums.com',
-    image: 'https://www.prosus.com/~/media/Images/P/prosus-corp-v2/logo/logo.png',
-    secondaryImage: 'https://cdn.prod.website-files.com/6489c69e685986b7b33c53e8/68303d4e66d5bc192fb6b473_logo_text.svg',
+    image: 'img/prosus.png',
+    secondaryImage: 'img/scrums.svg',
     role: 'Independent Contractor',
     contractedTo: 'Prosus',
     title: 'Principal Software Engineer',
